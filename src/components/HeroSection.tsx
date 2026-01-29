@@ -16,8 +16,13 @@ export function HeroSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
+          {/* Name */}
+          <p className="text-lg md:text-xl text-primary font-semibold mb-2 animate-fade-in">
+            Fajar Putra Temmalue
+          </p>
+
           {/* Tagline */}
-          <p className="text-sm md:text-base text-primary font-medium tracking-wide uppercase mb-4 animate-fade-in">
+          <p className="text-sm md:text-base text-muted-foreground font-medium tracking-wide uppercase mb-6 animate-fade-in" style={{ animationDelay: "0.05s" }}>
             Data Analyst | Mathematics Education | Bekasi, Indonesia
           </p>
 
